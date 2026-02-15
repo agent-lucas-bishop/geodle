@@ -232,3 +232,37 @@ footer {
   font-size: 0.75rem;
   letter-spacing: 0.1em;
 }
+
+/* Cross-promotion footer */
+.daily-cross-promo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 16px 0 8px;
+  margin-top: 12px;
+  border-top: 1px solid rgba(255,255,255,0.08);
+}
+.daily-cross-promo .promo-label {
+  font-size: 0.6rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.25);
+  font-weight: 600;
+}
+.daily-cross-promo .promo-links {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.daily-cross-promo .promo-links a {
+  font-size: 0.7rem;
+  color: rgba(255,255,255,0.35);
+  text-decoration: none;
+  transition: color 0.2s;
+  white-space: nowrap;
+}
+.daily-cross-promo .promo-links a:hover {
+  color: rgba(255,255,255,0.7);
+}
